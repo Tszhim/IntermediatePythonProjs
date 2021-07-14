@@ -28,12 +28,3 @@ for destination in sheet_data:
 
     if flight_deals is not None and flight_deals.parse_price() < destination["lowestPrice"]:
         twilio_sms_manager.notify(flight_deals.compose_msg())
-
-
-
-
-
-
-
-
-
