@@ -7,7 +7,7 @@ from selenium.common.exceptions import StaleElementReferenceException
 last_purchase_time = time.time()
 
 # Setting up chrome driver.
-chrome_driver_path = "C:\\Users\\falco\\OneDrive\\Desktop\\chromedriver.exe"
+chrome_driver_path = "path"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 driver.get("http://orteil.dashnet.org/experiments/cookie/")
 
