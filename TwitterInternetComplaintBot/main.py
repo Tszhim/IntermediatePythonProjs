@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 
-twitter_username = "Tris25863926"
-twitter_password = "seleniumbot9876545678987654567891351351364646"
+twitter_username = "my_username"
+twitter_password = "my_password"
 down_bound = 150.0
 up_bound = 10.0
 
